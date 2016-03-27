@@ -14,7 +14,7 @@ png("plot4.png", width = 480, height = 480)
 par(mfrow = c(2,2))
 
 #plot 1
-plot(data$Time, data$Global_active_power, type = "n", xlab = "", ylab = "Global Active Power (kilowatts)")
+plot(data$Time, data$Global_active_power, type = "n", xlab = "", ylab = "Global Active Power")
 lines(data$Time, data$Global_active_power)
 
 #plot 2
